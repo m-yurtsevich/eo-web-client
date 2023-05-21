@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: eu-north-1
   ECR_REPOSITORY: eo-web-client
-  ECS_SERVICE: eo-web-client
+  ECS_SERVICE: eo-web-client-service
   ECS_CLUSTER: eo-web-client
   ECS_TASK_DEFINITION: .github/workflows/task-definition.json
   CONTAINER_NAME: eo-web-client
