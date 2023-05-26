@@ -33,6 +33,6 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: eo-web-client
           environment_name: eo-web-client-env
-          version_label: "the-simple-engineer-deployment-${{ steps.format-time.outputs.replaced }}"
+          version_label: "eo-web-client-${{ steps.format-time.outputs.replaced }}"
           region: eu-north-1
           deployment_package: deploy.zip
