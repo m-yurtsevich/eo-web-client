@@ -23,6 +23,7 @@ import LoadingIndicator from './components/LoadingIndicator/LoadingIndicator';
 export default function App() {
 
   useEffect(() => {
+    console.log("APP: ", process.env.REACT_APP_IDENTITY_SERVER_URL)
     authService.loadUserFromStorage(store)
   }, [])
 
